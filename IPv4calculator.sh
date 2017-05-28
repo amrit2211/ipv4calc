@@ -192,7 +192,7 @@ if [[ "$userinputip" =~ ^(([01]{,1}[0-9]{1,2}|2[0-4][0-9]|25[0-5])\.([01]{,1}[0-
 	echo "#################################################################"
 	echo "IP=$userinputip"
 	echo "Number of ON bits=$numbits"
-	echo "Class=$class"
+	echo "Class(According to Provided IP)=$class"
 	echo "Used For=$usedfor"
 	bitcalcu $numbits	#call function4
 	echo "Subnet Mask=$sub1.$sub2.$sub3.$sub4"
