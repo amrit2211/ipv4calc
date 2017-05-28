@@ -4,7 +4,7 @@ IPv4 Calculator Bash Script, ipv4calc.sh
 Output:
 IP=123.123.25.22
 Number of ON bits=23
-Class=A
+Class(According to Provided IP)=A
 Used For=Very large networks
 Subnet Mask=255.255.254.0
 Block Size=2
